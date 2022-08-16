@@ -60,6 +60,9 @@ return packer.startup(function(use)
   use "folke/which-key.nvim"
   use "vim-test/vim-test"
   use "slime-lang/vim-slime-syntax"
+  use "ziglang/zig.vim"
+  use({ "mhanberg/elixir.nvim", requires = { "neovim/nvim-lspconfig", "nvim-lua/plenary.nvim" }})
+  use "simrat39/rust-tools.nvim"
 
   -- Colorschemes
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
